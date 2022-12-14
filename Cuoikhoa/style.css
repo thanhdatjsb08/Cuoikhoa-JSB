@@ -1,0 +1,68 @@
+
+
+.nav {
+    color: black;
+    background-color: yellow;
+    width: 100%;
+    padding: 30px;
+    text-align: right;
+}
+
+.navbar-item{
+    color: black;
+    height: 100%;
+    padding: 25px;
+}
+
+.navbar-item:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.center{
+    text-align: center;
+}
+
+
+p {
+    margin: 10px 200px;
+    text-align: justify;
+    color: black;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: block;
+}
+
+body {
+    background-color: maroon;
+}
+
+.tet {
+    margin-left: 200px;
+    margin-right: 200px;
+   
+}
+ footer {
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+ }
