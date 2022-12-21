@@ -28,7 +28,7 @@
 p {
     margin: 10px 200px;
     text-align: justify;
-    color: black;
+    color: white;
 }
 
 *{
@@ -46,11 +46,19 @@ p {
 
 body {
     background-color: maroon;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
 }
 
 .tet {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
    
 }
  footer {
@@ -58,6 +66,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
+    background-color: yellow;
  }
 
  footer .container {
