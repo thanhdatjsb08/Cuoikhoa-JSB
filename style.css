@@ -5,7 +5,7 @@
     background-color: yellow;
     width: 100%;
     padding: 30px;
-    text-align: right;
+    text-align: center;
 }
 
 .navbar-item{
@@ -67,6 +67,7 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: yellow;
+    
  }
 
  footer .container {
@@ -75,3 +76,5 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
  }
+
+ 
