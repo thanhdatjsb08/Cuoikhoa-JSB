@@ -1,0 +1,41 @@
+.nav {
+    color: black;
+    background-color: yellow;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar-item{
+    color: black;
+    height: 100%;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar-item:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.center{
+    text-align: center;
+}
+body {
+    background-color: maroon;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+p {
+    text-align: center;
+    color: white;
+}
+

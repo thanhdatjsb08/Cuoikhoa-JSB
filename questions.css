@@ -1,0 +1,65 @@
+.alert-success {
+    color: black;
+    background-color: maroon;
+    border-color: #b7e70a;
+}
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.nguoihoi {
+    padding: 30px;
+    width: 10px;
+}
+.dienthoai {
+    padding: 30px;
+    width: 10px;
+}
+.cauhoi {
+    padding: 30px;
+    width: 10px;
+}
+.chitiet {
+    padding: 30px;
+    width: 10px;
+}
+footer {
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    background-color: yellow;
+    
+ }
+
+ footer .container {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+ }
+ .nav {
+    color: black;
+    background-color: yellow;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar-item{
+    color: black;
+    height: 100%;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar-item:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,52 @@
+.news {
+    margin-left: 400px;
+    margin-right: 400px;
+   
+}
+p {
+    margin: 10px 200px;
+    text-align: justify;
+    color:white;
+}
+footer {
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    background-color: yellow;
+    
+ }
+
+ footer .container {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+ }
+h6 {
+    text-align: center;
+}
+body {
+    background-color: maroon;
+}
+.nav {
+    color: black;
+    background-color: yellow;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar-item{
+    color: black;
+    height: 100%;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar-item:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
