@@ -38,4 +38,22 @@ p {
     text-align: center;
     color: white;
 }
+footer {
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    background-color: yellow;
+    
+ }
+ .news {
+    margin-left: 400px;
+    margin-right: 400px;
+ }
+ footer .container {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+ }
 
